@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpoloreMedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="brand">Travel</a>
+        <video src="v/forest.mp4" muted loop autoplay></video>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div  class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">Basketball</a>
+                <a href="#">Players</a>
+                <a href="#">Watch</a>
+                <a href="#">Contract</a>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h1>Basketball<br><span>2022</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vel eius. Laborum veritatis voluptatem dolorum ratione optio. Laudantium officia ab, neque tenetur aspernatur iure ut sed eos nam a distinctio voluptatibus nihil molestiae quis. Reiciendis laudantium consequatur ea nihil commodi, nemo quae adipisci corrupti ut, cupiditate sapiente recusandae tempora harum veniam distinctio? Qui pariatur ratione temporibus modi placeat quibusdam ipsam assumenda asperiores, excepturi voluptate dicta. Voluptatum iure laboriosam modi aspernatur?</p>
+            <a href="#">Read More</a>
+          
+    </section>
+
+    <script type="text/javascript">
+        //Javacript of responsive navigation menu
+        const menuBtn = document.querySelector(".menu-btn");
+
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+        })
+    </script>
+    
+</body>
+</html>
